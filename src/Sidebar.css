@@ -46,7 +46,7 @@ aside form .input-block input{
   font-size: 14px;
   color: #666;
   border: 0;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid rgba(125,64,231, 0.4);
 }
 
 aside form button[type="submit"] {
