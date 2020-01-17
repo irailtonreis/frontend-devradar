@@ -43,6 +43,10 @@ li.dev-item p{
   margin: 10px 0;
 }
 
+li.dev-item .delete {
+  text-align: right;
+}
+
 li.dev-item a{
   color: #8E4DFF;
   font-size: 14px;
@@ -54,4 +58,9 @@ li.dev-item a{
 
 li.dev-item a:hover {
   color: #5A2EA6;
+}
+
+li.delete{
+  height: 30px;
+  width: 30px;
 }

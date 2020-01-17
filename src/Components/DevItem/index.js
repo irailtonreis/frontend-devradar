@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdDeleteForever } from  'react-icons/md';
 
 import './styles.css';
 function DevItem({ dev }){
@@ -12,6 +13,7 @@ function DevItem({ dev }){
     </header>
     <p>{dev.bio}</p>
     <a href={`http://github.com/${dev.github_username}`}>Acessar perfil no Github</a>
+    <p className="delete"><MdDeleteForever size={25} color="#5A2EA6"/></p>
   </li>
   )
 }

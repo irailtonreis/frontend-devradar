@@ -29,6 +29,11 @@ function App() {
     
     setDevs([...devs, response.data])
   }
+
+  async function handleDeleteDev(id){
+    const response = await api.delete(`/devs/${id}`);
+
+  }
   return (
     <div id="app">
       <aside>
