@@ -59,8 +59,3 @@ li.dev-item a{
 li.dev-item a:hover {
   color: #5A2EA6;
 }
-
-li.delete{
-  height: 30px;
-  width: 30px;
-}
